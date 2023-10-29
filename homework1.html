@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf -8">
+        <title> Pizza Shop</title>
+    </head>
+
+    <body>
+        
+        <form action="https://www.dominos.mk" method="post">
+
+            <input type = "hidden" name = "recipient"
+            value = "https://www.dominos.com">
+            <input type = "hidden" name = "subject"
+            value = "Pizza Shop">
+            <input type = "hidden" name = "redirect"
+            value = "main.html">
+
+            <table border="1">
+                
+                <thead>                 
+                    <tr>
+                        <th colspan="2">Pizza Shop</th>
+                    </tr>
+            </thead>
+                <body>
+
+                    <tr>
+                        <td>
+                                Name:
+                        </td>
+                        <td> 
+                            <label for="name">
+                                <input name="name" type="text" size="25" maxlength="30">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td > Pizza Topping:</td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="toppings_selection" id="Supreme">
+                                    <label for="Supreme">Supreme </label>
+                                </li>
+                            
+                                <li>
+                                    <input type="radio" name="toppings_selection" id="Vegetarian">
+                                    <label for="Vegetarian"> Vegetarian </label>
+                                </li>
+
+                                <li>
+                                    <input type="radio" name="toppings_selection" id="Hawaiian">
+                                    <label for="Hawaiian"> Hawaiian </label>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pizza Sauce: </td>
+                        <td>
+                            <label for="sause"></label>
+                            <select name="sause" id="sause" size = 1>
+                                <option value="tomato">Tomato</option>
+                                <option value="pesto">Pesto</option>
+                                <option value="NA">No Sauce</option>
+                            </select>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Optional Extras: </td>
+                        <td>
+
+                            <input type="checkbox" name="extras" id="cheese">
+                            <label for="cheese">Extra Cheese</label>
+                            
+                            <input type="checkbox" name="extras" id="base">
+                            <label for="base">Gluten Free Base</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        <label for="delivery_instructions"></label> Delivery Instructions:
+                        <textarea name="delivery_instructions" id="delivery_instructions" cols="60" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+
+                    </tr>
+                </body>
+                <tfoot>
+                    <td colspan="2"><input type="submit" value="Send my offer"></td>
+                </tfoot>
+            </table>
+
+        </form>
+    </body>
+
+</html>
