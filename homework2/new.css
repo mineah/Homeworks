@@ -1,0 +1,69 @@
+ul {list-style: none;}
+
+table {position: relative;
+    left: 25%;
+    width: 50%; 
+    border-style: solid;
+    border-color: red;
+    background-color: rgb(194, 36, 49); }
+
+body{
+    font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    background-image: url(brickwall.webp);
+    background-position: 100% center;
+    background-repeat: repeat;
+    background-origin:content-box; }
+
+select:hover { color: red; }
+
+label:hover {color: brown;}
+
+input:hover {color: blueviolet;}
+    
+textarea{position: relative;
+        left: 5%;
+        width: 90%;
+        background-image: linear-gradient(red, yellow);}
+        
+input.text{position: relative;
+    left: 2%;
+    right: 2%;
+    width: 96%;}
+
+thead {
+    background-color: red; 
+    animation-name: flash;
+    animation-duration: 100ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;}
+  
+@keyframes flash {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: orange;}
+    75% {background-color: blueviolet;}
+    100% {background-color: red;}}
+
+input.submit {
+    position: relative;
+    color: red; 
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;}
+
+h2.move {
+    position: relative;
+    color: red; 
+    text-shadow: 2px 2px black;
+    animation-name: moving;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;}
+  
+@keyframes moving {
+    0% {color: red; left:5%;}
+    25% {color: yellow; left:35%;}
+    50% {color: orange; left:70%;}
+    75% {color: blueviolet; left:35%;}
+    100% {color: red; left:5%;}}
