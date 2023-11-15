@@ -1,0 +1,106 @@
+
+body {
+
+
+   
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    
+    
+    }
+
+
+
+    .toys {
+      background-image:  url(./toys.jpg);
+    }
+
+    .clothes {
+
+      background-image: url(./clothers.jpg);
+    }
+
+
+    header {
+        text-align: center;
+       
+      }
+
+    .title {
+        font-family: Consolas;
+        text-decoration-line: overline;
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+      }
+
+      .undertitle {
+        background-color: rgb(31, 120, 138));
+        border-width: 2px solid black;
+      font-family: "Lucida Handwriting";
+      font-size: 15px;
+      color: black;
+      margin-top: 10px;
+      }
+
+      img {
+        
+      
+         width: 200px;
+         height: 200px;
+         border-style: dotted solid;
+         padding: 25px;
+           border-image: black 20% round;
+
+      }
+
+      .row {
+        display: flex;
+      }
+      
+      .column {
+        flex: 25%;
+        padding: 20px;
+      }
+
+      p{
+        box-sizing: content-box;
+        background-color: #c79191;
+        color: black;
+        width: 200px;
+        text-align: center;
+        
+      }
+
+    
+      button {
+        size: 150px;
+       
+        
+       text-align: center;
+       
+        }
+
+        .order {
+          border-radius: 15px;
+          background-color:#9291c7
+        }
+
+        .titlechild
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            font-style: oblique;
+            font-weight: 150;
+            padding-top: 10px;
+            color: black;
+            text-align: center;
+            background-color: rgb(76, 110, 104);
+        }
+        .cosmetic {
+        background-image: url(./cosmetic.jpg);
+    
+
+        }

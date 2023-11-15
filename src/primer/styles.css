@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./rose.jpg);
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .image {
+    box-sizing: border-box;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #f9f9f9;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .comments {
+    padding: 10px;
+  }
+  
+  .comments input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  .comments button {
+    padding: 8px;
+    background-color: rgb(223, 134, 223);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .likes {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fafafa;
+  }
+  
+  .likes button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .likes span {
+    margin-left: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .comments ul li {
+    position: relative;
+    padding-right: 30px; /* Space for the delete button */
+  }
+  
+  .comments .delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border: none;
+    color: #ff0000;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .likes button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .likes button.liked {
+    color: #e74c3c; /* Red color for liked state */
+  }
+
+  .h1
+  {
+    font-size: 30px;
+  font-weight: bold;
+  color: #4abaff;
+  text-align: center;
+ 
+  }
